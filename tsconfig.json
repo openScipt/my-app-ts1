@@ -14,8 +14,8 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "moduleResolution": "node", //resolveJsonModule依赖moduleResolution
+    "resolveJsonModule": true, // 项目中使用json
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx"
